@@ -63,7 +63,7 @@ app.post('/api/notes', (request, response) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('<h1>Hello World!</h1>')
+    res.send('<h1>Veera on ihan pyllypää :)</h1>')
 })
 
 app.get('/api/notes', (req, res) => {
